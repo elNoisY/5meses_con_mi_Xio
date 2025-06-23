@@ -35,6 +35,13 @@ function openNextLayer() {
     const textElement = document.getElementById("layer-text");
     const imageElement = document.getElementById("layer-image");
 
+    if (capaActual === 0) {
+        const music = document.getElementById("bg-music");
+        music.play().catch(err => {
+          console.log("El navegador bloqueó el audio:", err);
+        });
+    }
+
     if (capaActual < capas.length) {
         textElement.innerText = capas[capaActual].texto;
         imageElement.src = capas[capaActual].imagen;
