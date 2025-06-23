@@ -48,7 +48,7 @@ function openNextLayer() {
         imageElement.style.display = "block";
         capaActual++;
     } else {
-        textElement.innerText = "🎉 ¡Ya abriste toda la cajita! Pero aún tengo más sorpresas para ti...";
+        textElement.innerText = "Hola mi amor, espero que cuando leas esto estes en la parte bonita de la canción JAJKJK, solo queria recordarte que te amo mucho y que cada momento para mi es el más importante, estoy muy feliz por haberte encontrado y nunca me perdonaria si lo nuestro llegara a terminar :c, te convertiste en alguien que ahora un te amo no basta para decirte todo lo que siennto, ni siquiera escribiendote un libro entero alcanzaria a decir cuanto te amo, gracias por todos estos momentos felices mi amor, soy el más feliz a tu lado<3";
         imageElement.style.display = "none";
     }
 }
